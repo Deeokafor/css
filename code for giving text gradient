@@ -1,0 +1,10 @@
+//element-name goes here { 
+  /*ruleset begins here
+  
+  font-size: 30px;
+  color: red;
+  background: linear-gradient(red, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  ruleset ends here*/
+}
