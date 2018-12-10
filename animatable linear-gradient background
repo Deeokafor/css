@@ -1,0 +1,40 @@
+html{
+  height: 100%;
+  background-image: linear-gradient(to right, red, orange);
+  animation: bakG-colorChange 10s ease infinite;
+  transition: all 10s;
+}
+
+@keyframes bakG-colorChange{
+  10%{
+    background-image: linear-gradient(to right, orange 10%, red);
+  }
+  20%{
+    background-image: linear-gradient(to right, orange 20%, red);
+  }
+  30%{
+    background-image: linear-gradient(to right, orange 30%, red);
+  }
+
+  40%{
+    background-image: linear-gradient(to right, orange 40%, red);
+  }
+  50%{
+    background-image: linear-gradient(to right, orange 50%, orange);
+  }
+  60%{
+    background-image: linear-gradient(to right, orange 60%, red);
+  }
+  70%{
+    background-image: linear-gradient(to right, orange 70%, red);
+  }
+  80%{
+    background-image: linear-gradient(to right, orange 80%, red);
+  }
+  90%{
+    background-image: linear-gradient(to right, orange 90%, red);
+  }
+  100%{
+    background-image: linear-gradient(to right, orange 100%, red);
+  }
+}
