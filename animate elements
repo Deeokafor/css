@@ -1,0 +1,45 @@
+//** sourced from https://www.quackit.com/css/css3/animations/ **// 
+
+/* for caret color change change */
+<!DOCTYPE html>
+<title>Example</title>
+<style>
+input {
+	caret-color: orange;
+	color: white;
+	background: black;
+	font-size: 7vw;
+	padding: 3vw;
+	animation: myAnimation 10s infinite;
+}
+@keyframes myAnimation {
+  50% {
+    caret-color: limegreen;
+  }	
+}
+</style>
+
+<input autofocus placeholder="Name">
+/* ... */
+
+/* change border width */
+<!DOCTYPE html>
+<title>Example</title>
+<style>
+.animatedBox {
+  width: 200px;
+  text-align: center;
+  font: 24px sans-serif;
+  border: 1px solid yellowgreen;
+  animation: myAnimation 1s ease 1s 3 alternate forwards;
+}
+
+@keyframes myAnimation {
+  100% {
+    border-left: 10px solid orange;
+  }	
+}
+</style>
+
+<div class="animatedBox">Animated box</div>
+/* ... */
